@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
-import { User } from './../../../domain/enitities/UserModel';
+import { User } from './../../../domain/entities/UserModel';
 import { catchAsync } from './../utils/catchAsync';
 import { AppError } from './../utils/AppError';
 import jwt from 'jsonwebtoken';

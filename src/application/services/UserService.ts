@@ -1,6 +1,6 @@
 import { IUserService } from './../interfaces/IUserService';
 import { IUserRepository } from '../../domain/repositories/IUserRepository';
-import { UserDTO } from '../../domain/enitities/UserDTO';
+import { UserDTO } from '../../domain/entities/DTOs/UserDTO';
 import { Request, Response } from 'express';
 import { IUserModel } from '../interfaces/IUserModel';
 

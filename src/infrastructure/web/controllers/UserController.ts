@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from 'express';
 import { IUserService } from '../../../application/interfaces/IUserService';
-import { UserDTO } from '../../../domain/enitities/UserDTO';
-import { User } from '../../../domain/enitities/UserModel';
+import { UserDTO } from '../../../domain/entities/DTOs/UserDTO';
+import { User } from '../../../domain/entities/UserModel';
 import { catchAsync } from '../utils/catchAsync';
 
 export class UserController {

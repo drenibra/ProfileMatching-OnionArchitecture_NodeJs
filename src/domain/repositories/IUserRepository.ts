@@ -1,5 +1,5 @@
 import { IUserModel } from '../../application/interfaces/IUserModel';
-import { UserDTO } from '../enitities/UserDTO';
+import { UserDTO } from '../entities/DTOs/UserDTO';
 
 export interface IUserRepository {
   getAll(): Promise<UserDTO[]>;

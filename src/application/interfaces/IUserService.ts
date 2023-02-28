@@ -1,4 +1,4 @@
-import { UserDTO } from '../../domain/enitities/UserDTO';
+import { UserDTO } from '../../domain/entities/DTOs/UserDTO';
 import { IUserModel } from './IUserModel';
 
 export interface IUserService {
